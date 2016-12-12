@@ -1,0 +1,82 @@
+.body {
+    background-image: url(../img/brickwall.png) ;
+    font-size: 130%;
+    margin-top: 30px;
+}
+
+.site_logo{
+    width: 100px;
+    height: 107px;
+    margin: 0px;
+    
+}
+
+#fa {
+    margin-top: 75px;
+    float: right;
+}
+
+.navbar{
+    margin-top: 10px;
+}
+
+#p_1 {
+    text-align: justify
+}
+
+#p_2 {
+    text-align: justify
+}
+
+.section_1 p {
+    text-align: justify;
+}
+
+#p_3 {
+    text-align: left;
+}
+
+#p_4 {
+    text-align: right;
+}
+.section_2 p{
+   
+}
+
+.section_1 {
+    border-top: 10px solid dimgray;
+    border-bottom: 10px solid dimgray;
+    margin: 0 0 0 0;
+}
+
+.h3_1 {
+    border-bottom: 3px solid dimgray;
+}
+
+.services p {
+    background-color: dimgrey;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: center;
+    font-size: 13.4px;
+}
+
+.img-thumbnail {
+    height: auto;
+    width: auto;
+    
+}
+
+.footer {
+    border-top: 10px solid dimgray;
+}
+
+#copyright { 
+    float: left;
+}
+
+#lang{ 
+    float: right;
+}
+
+

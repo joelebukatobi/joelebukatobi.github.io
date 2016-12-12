@@ -1,0 +1,613 @@
+body {
+    font-family: sans-serif, 'Josefin Sans';
+}
+body h2 {
+    font-family: Ubuntu;
+    padding: 0px 15px;
+}
+body p {
+    font-family: Josefin Sans;
+}
+body h3 {
+    font-family: Ubuntu;
+}
+body h4 {
+    font-family: Ubuntu
+}
+.body {
+    background-color:  whitesmoke;
+}
+/*.row {
+    background-color: whitesmoke;
+}*/
+#banner.container-fluid {
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 450px;
+}
+#banner {
+    margin-top: -10px;
+    padding: 0px;
+    background-image: url(../img/back_7.jpg);
+    background-repeat: no-repeat;
+    background-size: 1498px 500px;
+}
+.banner_text {
+    background-color: rgba(30, 30, 32, 0.5);
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Sirin Stencil;
+    height: 440px;
+}
+ul.nav.navbar-nav li a {
+    color: #FFFFFF;
+}
+ul.nav.navbar-nav li a:hover {
+    color: #FFFFFF;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 6px;
+    border-bottom: 5px solid #60404B;
+}
+.img-circle {
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.img-circle {
+    opacity: 0.8;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-twitter-square {
+    color: #55acee;
+}
+.fa-google-plus-square {
+    color: #dd4b39;
+}
+.fa-linkedin-square {
+    color: #007bb5;
+}
+.fa-github-square {
+    color: 4183c4;
+}
+.socials p {
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0px;
+    font-family: Sirin Stencil;
+}
+.socials h2 {
+    padding: 0px;
+    margin: 0px;
+    font-family: Sirin Stencil;
+}
+.socials hr {
+    padding: 0px;
+}
+#glyph {
+    text-align: center;
+}
+.fa-mobile {
+    color: #02418D;
+    font-size: 80px;
+    text-align: center
+}
+.fa-globe {
+    color: #02418D;
+    font-size: 80px;
+    text-align: center
+}
+.fa-html5 {
+    color: #02418D;
+    font-size: 80px;
+    text-align: center
+}
+#myservices {
+    background-color: whitesmoke;
+    margin-top: -20px;
+}
+.web h2 {
+    text-align: center;
+    font-size: 1.7em;
+}
+.web p {
+    line-height: 1.65;
+    font-size: 1.20em;
+    padding: 0 15px;
+    text-align: justify;
+}
+#about {
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+#hi {
+    text-align: center;
+    padding: 0 0 10px 0;
+    margin: 0px;
+    font-size: 1.70em
+}
+.about h2 {
+    text-align: center;
+    font-size: 1.9em;
+    padding: 0px;
+    margin: 0px;
+}
+.about p {
+    line-height: 1.65;
+    font-size: 1.20em;
+    padding: 0 15px;
+    text-align: justify;
+}
+.about .row p {
+    font-size: 1.0em;
+}
+.about_1 {
+    margin-top: 10px;
+}
+#myCarousel {
+    margin-left: 15px;
+    width: 385px;
+    height: 290px;
+}
+.item {
+    height: 290px !important;
+}
+.first-slide {
+    height: 290px !important;
+}
+.second-slide {
+    height: 290px !important;
+}
+.third-slide {
+    height: 290px !important;
+}
+.fourth-slide {
+    height: 290px !important;
+}
+.fifth-slide {
+    height: 290px !important;
+}
+#skills {
+    margin-top: -20px;
+}
+#skills.container-fluid {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.skills {
+    margin: 0 -15px;
+    position: relative;
+    z-index: 1;
+}
+.skills > .bg {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../img/back_11.jpg);
+    background-repeat: no-repeat;
+    background-size: 1498.89px 814.4px;
+    opacity: 0.8;
+  }
+.skills h2 {
+    text-align: center;
+    font-size: 1.9em;
+    margin-top: -5px;
+}
+.skills p {
+    line-height: 1.65;
+    font-size: 1.20em;
+    padding: 0 15px;
+    text-align: justify;
+}
+.prof {
+    margin: 0 100px;
+}
+#p_1 {
+    float: left;
+}
+#p_2 {
+    float: right;
+}
+#works {
+    padding-bottom: 15px;
+}
+.portfolio p {
+    line-height: 1.65;
+    font-size: 1.20em;
+    padding: 0 15px;
+    text-align: justify;
+}
+.portfolio h2 {
+    text-align: center;
+    font-size: 1.9em;
+}
+.img-feature {
+    height: 130px;
+    width: 230px;
+    border-radius: 5px;
+    background-color:  rgba(30, 30, 32, 0.5);
+}
+.experience {
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+}
+.experience p {
+    line-height: 1.65;
+    font-size: 1.20em;
+    padding: 0px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+.experience h2 {
+    text-align: center;
+    font-size: 1.9em;
+}
+.exp {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hroyal {
+    border: 1.8px solid #000000;
+}
+.work_exp {
+    height: 200px;
+    width: 233px;
+}
+.iframe {
+    width: 495px;
+    height: 295px;
+}
+#twitter {
+    background-color: whitesmoke;
+    margin-top: -20px;
+}
+#contact {
+    background-color: whitesmoke;
+}
+#footer.container-fluid {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+.footer {
+    border-top: 15px solid rgba(30, 30, 32, 0.5);
+    background-color: #60404B;
+    color: rgba(30, 30, 32, 0.8);
+}
+.hr_1 {
+    border-color: rgba(30, 30, 32, 0.5);
+}
+.em_f {
+    color: rgba(30, 30, 32, 0.8);
+}
+.l_aligned{
+    text-align: right;
+}
+.c_aligned {
+  text-align: center;
+}
+.s_media {
+    padding: 0 71.5px;
+}
+.s_media > a  {
+  padding: 0px 10px;
+}
+@media screen and (max-width: 1024px) {
+    .img-rounded{
+        margin-top: 15px;
+    }
+    #banner {
+        background-size: 1024px 440px;
+    }
+    .banner_text{
+        height: 430px;
+    }
+
+    .img-feature {
+        height: 130px;
+        width: 215px;
+        margin: 0px;
+        padding: 0 10px;
+    }
+    .exp {
+        padding: 0px;
+    }
+    .work_exp {
+        height: 210px;
+        width: 293px;
+    }
+    .skills > .bg {
+        background-size: 1498.89px 865px !important;
+    }
+    .iframe {
+        width: 455px;
+        height: 295px;
+    }
+    .s_media > a  {
+      padding: 0px 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .img-rounded{
+      margin-top: 15px;
+    }
+    .banner_text{
+      height: 440px;
+    }
+    #banner {
+        background-repeat: no-repeat;
+        background-size: 768px 450px;
+        padding: 0px;
+
+    }
+    #banner.container-fluid {
+      height: 450px;
+    }
+    .glyphicon {
+        font-size: 60px;
+    }
+    .socials span {
+        height: 35px;
+        width: 30px;
+    }
+    .about > .col-md-5.col-sm-5 {
+        padding: 0px;
+    }
+    #myCarousel {
+        margin: 15px 15px 15px 0;
+        width: 295px;
+        height: 280px;
+    }
+    .img-feature {
+        height: 100px;
+        width: 150px;
+        margin: 0px;
+        padding: 0 10px;
+    }
+    .web {
+        font-size: 0.9em;
+    }
+    .skills {
+        font-size: 0.9em
+    }
+    .about {
+        font-size: 0.9em;
+    }
+    .about_1 {
+        padding-top: 30px;
+    }
+    .experience {
+        padding-bottom: 15px;
+    }
+    .experience p {
+        line-height: 0.9em;
+        font-size: 1.20em;
+        text-align: center;
+    }
+    .experience h2,
+    h3 {
+        text-align: center;
+        font-size: 1.9em;
+    }
+    .exp {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .work_exp {
+        height: 180px;
+        width: 210px;
+    }
+    .iframe {
+        width: 350px;
+        height: 295px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .img-rounded{
+      margin-top: 15px;
+    }
+    .banner_text{
+      height: 400px;
+    }
+    #banner.container-fluid{
+      height: 400px;
+    }
+    .img-circle {
+        margin-top: 15px;
+    }
+    .glyphicon {
+        font-size: 50px;
+    }
+    .socials span {
+        height: 35px;
+        width: 30px;
+    }
+    .img-feature {
+        width: 325px;
+        height: 170px;
+        margin: 5px 15px;
+    }
+    #banner {
+        background-repeat: no-repeat;
+        background-size: 480px 400px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .exp {
+        padding: 0 0 30px 0;
+    }
+    .work_exp {
+        width: 351px;
+        height: 225px;
+    }
+    .prof {
+        margin: 20px;
+    }
+    #myCarousel {
+        margin: 15px;
+        width: 345px;
+    }
+    .iframe {
+        width: 355px;
+        height: 380px;
+    }
+    .skills > .bg {
+        height: 600px;
+    }
+    #works.container { 
+        margin-top: 40px;
+    }
+    .s_media {
+        padding: 0 76px;
+    }
+    .s_media > a  {
+      padding: 0px 5px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .img-rounded{
+      margin-top: 15px;
+    }
+    .banner_text{
+      height: 400px;
+    }
+    #banner.container-fluid{
+      height: 400px;
+    }
+    .img-feature {
+        width: 258px;
+        height: 120px;
+    }
+    .socials a {
+        font-size: 13px;
+    }
+    .socials span {
+        height: 35px;
+        width: 30px;
+    }
+    #banner {
+        background-repeat: no-repeat;
+        background-size: 400px 400px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .img-feature {
+        width: 240px;
+    }
+    #myCarousel {
+        margin: 15px;
+        width: 230px;
+    }
+    .iframe {
+        width: 260px;
+        height: 380px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .img-rounded{
+      margin-top: 35px;
+    }
+    .banner_text{
+      height: 400px;
+    }
+    #banner.container-fluid {
+      height: 400px;
+    }
+    .img-feature {
+        width: 258px;
+        height: 120px;
+        margin-left: 5px;
+    }
+    .socials span {
+        height: 35px;
+        width: 30px;
+    }
+    .socials a {
+        font-size: 13px;
+    }
+    #banner {
+        background-repeat: no-repeat;
+        background-size: 375px 420px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .exp {
+        padding: 15px 0px;
+    }
+    .work_exp {
+        width: 300px;
+    }
+    .img-feature {
+        width: 295px;
+    }
+    #myCarousel {
+        margin: 15px;
+        width: 230px;
+    }
+    .iframe {
+        width: 300px;
+        height: 300px;
+    }
+    .skills > .bg {
+        height: 658px;
+    }
+    .mobile > #p_1 {
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .img-rounded{
+      margin-top: 35px;
+    }
+    .banner_text{
+      height: 400px;
+    }
+    #banner.container-fluid{
+      height:  410px;
+    }
+    .img-feature {
+        width: 258px;
+        height: 120px;
+    }
+    .socials a {
+        font-size: 13px;
+    }
+    .socials span {
+        height: 35px;
+        width: 30px;
+    }
+    #banner {
+        background-repeat: no-repeat;
+        background-size: 320px 400px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .exp {
+        padding: 0 0 20px 0;
+    }
+    .work_exp {
+        width: 260px;
+    }
+    .img-feature {
+        width: 240px;
+    }
+    #myCarousel {
+        margin: 15px;
+        width: 230px;
+    }
+    .iframe {
+        width: 260px;
+        height: 300px;
+    }
+    .skills h3 {
+        font-size: 1.5em;
+    }
+    #p_1, #p_2 {
+        font-size: 0.90em;
+    }
+}
